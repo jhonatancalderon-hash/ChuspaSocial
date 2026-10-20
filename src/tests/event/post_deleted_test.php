@@ -43,7 +43,7 @@ class post_deleted_test extends advanced_testcase {
             'userid' => $user->id,
             'courseid' => 0,
             'content' => 'Publicacion de prueba para eliminacion',
-            'format' => 1,
+            'contentformat' => 1,
             'timemodified' => time(),
             'timecreated' => time(),
         ]);
